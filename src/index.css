@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@keyframes scroll {
+ 0% { transform: translateX(0); }
+ 100% { transform: translateX(-50%); }
+}
+.animate-scroll {
+  animation: scroll 5s linear infinite;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Rubik+Maze&display=swap');
+
+#rubik{
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#dosis{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
